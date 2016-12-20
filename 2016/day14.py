@@ -7,7 +7,7 @@ def yield_each_hash(salt, use_stretching):
     for current in count():
         key = salt + str(current)
         for _ in xrange(to_repeat):
-            key = md5(key).hexdigest().lower()
+            key = md5(key).hexdigest()
         yield key
 
 
@@ -50,4 +50,4 @@ def f(salt, use_stretching=False):
 
 if __name__ == '__main__':
     print f('jlmsuwbz') == 35186
-    print f('jlmsuwbz', True)
+    print f('jlmsuwbz', True) == 22429
