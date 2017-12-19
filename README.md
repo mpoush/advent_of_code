@@ -13,6 +13,8 @@ The main page is ASCII art, revealed line-by-line, day-by-day.  Solve that day, 
 
 It's a speed competition and keeps a leaderboard, so some of this code was written *very* quickly.  (Sadly, I never got above [42nd place](https://adventofcode.com/2016/leaderboard/day/15).)  Also, because I was on a new laptop, I wrote the python in text editor rather than a proper IDE.  Doubly frustrating, I had no prewritten libraries, so hopefully next year, I'll be able to solve code that much faster.
 
+*2017 Update:* I ended up without easy access to this GitHub when AoC 2017 started, so I got no speed boost from the libraries.  Also, I didn't really feel like staying up to try to solve puzzles as they come hot off the presses.
+
 Only some solutions are present
 -------------------------------
 So, the code was written quickly, and without the aid of tooling, and the utilities were built on the fly as I needed them.
@@ -23,9 +25,36 @@ Personal stats
 ==============
 Unlike [Project Euler](https://projecteuler.net/progress=MrPoush), there's no way to link to one's profile, so you'll have to take my word for it that I beat it.
 
+2017
+----
+```
+      --------Part 1--------   --------Part 2--------
+Day       Time   Rank  Score       Time   Rank  Score
+ 19   00:24:04    256      0   00:24:58    210      0
+ 18   00:13:51    119      0   19:10:00   3366      0
+ 17   23:27:55   5202      0       >24h   5522      0
+ 16       >24h   6111      0       >24h   5440      0
+ 15   12:29:06   4717      0   12:46:38   4479      0
+ 14   13:23:54   4339      0   13:30:21   3327      0
+ 13       >24h   6923      0       >24h   6105      0
+ 12   13:39:36   5616      0   13:44:33   5301      0
+ 11   11:38:29   4662      0   11:39:48   4401      0
+ 10   00:34:11    589      0   00:53:41    433      0
+  9   02:06:41   1556      0   02:10:40   1508      0
+  8   11:47:30   6586      0   11:48:46   6438      0
+  7   13:13:06   8054      0   13:21:22   4885      0
+  6       >24h  12297      0       >24h  11855      0
+  5   10:17:41   8541      0   10:18:51   8109      0
+  4   14:55:54  10592      0   14:59:09   9427      0
+  3       >24h  13840      0       >24h   9909      0
+  2       >24h  21923      0       >24h  18793      0
+  1       >24h  28295      0       >24h  23780      0
+```
+
 2016
 ----
-```You have 303 points.
+```
+You have 303 points.
 
       -------Part 1--------   -------Part 2--------
 Day       Time  Rank  Score       Time  Rank  Score
